@@ -1,0 +1,60 @@
+.team {
+    padding: 50px 0;
+}
+.team-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.team-card {
+    width: 260px;
+    margin: 0 15px;
+    @media (max-width: 850px){
+        width: 227.08px;
+        height: 520.59px;
+    }
+}
+.team-card-img {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.team-card-img img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+.team-card-name  {
+    font-weight: 700;
+    font-size: $_24px;
+    line-height: 28px;
+    color: $_black;
+    margin-bottom: 3px;
+}
+.team-card-name span {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: $_red;
+}
+.team-card-info {
+    margin:30px 0px 20px 0px;
+}
+.team-contacts{
+    display: flex;
+    justify-content: space-evenly;
+}
+.team-discrip {
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: 21px;
+    color: $_grey;
+    margin-bottom: 37px;
+}

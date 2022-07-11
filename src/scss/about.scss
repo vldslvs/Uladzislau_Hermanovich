@@ -1,0 +1,46 @@
+.about {
+    margin-top: 114px;
+    padding: 70px 0px;
+    background-color: rgba(53, 60, 101, 1);
+}
+.about h3 {
+    font-weight: 700;
+    font-size: $_18px;
+    line-height: 21px;
+    color: $_white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about p {
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: 21px;
+    color: $_white;
+    text-align: center;
+}
+.about-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    @media (max-width: 850px){
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+.location {
+    width: 370px;
+    margin: 0 15px;
+}
+.location-menu{
+    text-align: center;
+}
+.social-network {
+    width: 350px;
+    height: 108.86px;
+}
+
+.about-discript {
+    width: 370px;
+    margin: 0 15px;
+}

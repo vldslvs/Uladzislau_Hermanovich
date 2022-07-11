@@ -1,0 +1,146 @@
+.slider {
+    padding: 30px 0 70px 0;
+    position: relative;
+}
+.slider-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.slider-image {
+    flex: 1 1 50%;
+    position: relative;
+    min-height: 490px;
+}
+.slider-image img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.slider-image-discript {
+    flex: 1 1 50%;
+    background-color: rgba(92, 50, 73, 1);
+  
+}
+.slider-image-discript-text {
+    padding: 116px 230px;
+    text-align: left;
+}
+.slider-image-discript-text::after {
+    content: "";
+    width: 14px;
+    height: 14px;
+    border: 1px solid $_grey;
+    border-radius: 50%;
+}
+.slider-image-discript h3{
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-size: $_36px;
+    line-height: 49px;
+    color: $_white;
+    text-transform: capitalize;
+    text-align: center; 
+}
+.slider-image-discript p {
+    font-weight: 400;
+    font-size: $_13px;
+    text-transform: uppercase;
+    color: $_white;
+    text-align: center;
+}
+
+.testimonials-title {
+    margin-top: 114px;
+    font-weight: 500;
+    font-size: $_30px;
+    line-height: 35px;
+    color: $_black;
+    text-align: center;
+}
+.testimonials-subtitle {
+    margin: 12px 0px 20px 0px;
+    font-weight: 700;
+    font-size: $_18px;
+    line-height: 21px;
+    color: $_black;
+    text-align: center;
+}
+
+//slider
+.wrapper {
+    height: 600px;
+	position: relative;
+}
+.slider {
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+    height: inherit;
+}
+.wrapper > input {
+	display: none;
+}
+.slides {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+}
+.wrapper .controls {
+	left: 50%;
+	margin-left: -98px;
+	position: absolute;
+}
+
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper label:after {
+	border: 2px solid #ddd;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+.wrapper label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3)
+{
+	background: #ddd;
+}
+	
